@@ -1,16 +1,16 @@
--- Section for VirtualHost nu.gmbr.hkov
+-- Section for VirtualHost neka.domena.ovdje
 
-VirtualHost "nu.gmbr.hkov"
+VirtualHost "neka.domena.ovdje"
         -- enabled = false -- Remove this line to enable this host
 
         -- Prosody will automatically search for a certificate and key
         -- in /etc/prosody/certs/ unless a path is manually specified
         -- in the config file, see https://prosody.im/doc/certificates
 --      ssl = {
---              key = "/etc/prosody/certs/nu.gmbr.hkov.key";
---              certificate = "/etc/prosody/certs/nu.gmbr.hkov.crt";
+--              key = "/etc/prosody/certs/neka.domena.ovdje.key";
+--              certificate = "/etc/prosody/certs/neka.domena.ovdje.crt";
 --      }
-  certificate = "/var/lib/prosody/nu.gmbr.hkov.crt"
+  certificate = "/var/lib/prosody/neka.domena.ovdje.crt"
 
 ------ Components ------
 -- You can specify components to add hosts that provide special services,
@@ -18,8 +18,8 @@ VirtualHost "nu.gmbr.hkov"
 -- For more information on components, see https://prosody.im/doc/components
 
 ---Set up a MUC (multi-user chat) room server on conference.example.com:
--- Component "conference.example.com" "muc"
- Component "conference.nu.gmbr.hkov" "muc"
+-- Component "conference.neka domena ovdje" "muc"
+ Component "conference.neka.domena.ovdje" "muc"
   certificate = "/var/lib/prosody/conference.nu.gmbr.hkov.crt"
 --- Store MUC messages in an archive and allow users to access it
 --modules_enabled = { "muc_mam" }
