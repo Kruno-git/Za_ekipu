@@ -8,8 +8,6 @@ Obratite pozornost na kuharice koje ce takodjer biti implementirane u svaki od r
 
 Napravite si sliku informacijskog sustava, tako da uvijek znate gdje ste i sto radite.
 
-Sto se tice skripti koje sam isto mogao staviti u mjesto ovog pjeske dijela, možete ih sami napraviti iz kuharica jer sve je script-ready napisan.
-
-Ako imate kakvih pitanja zovite me telefon, jer zbog obaveza nemam baš vremena biti ovdje
+Sto se tice skripti koje sam isto mogao staviti u mjesto ovog pjeske dijela, možete ih sami napraviti iz kuharica.
 
 
